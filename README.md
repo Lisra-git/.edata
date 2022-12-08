@@ -6,8 +6,8 @@ Some kind of archive storing raw files primary for Epsilon apps
 | Offset | Size | Description                                 |
 |--------|------|---------------------------------------------|
 | 0x00   | 0x04 | Archive size                                |
-| 0x04   | 0x04 | Number of files in archive (max 10)         |
-| 0x10   | 0x40 | PointerJungle: 10 x 0x4 pointers to file headers in the archive |
+| 0x04   | 0x04 | Number of files in archive (max 16)         |
+| 0x10   | 0x40 | PointerJungle: 16 x 0x4 pointers to file headers in the archive |
 
 ## File Header (For each stored file in archive)
 
